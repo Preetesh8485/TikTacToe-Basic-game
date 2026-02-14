@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dd7596;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playarea{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 0px 11px 6px rgba(0, 0, 0, 0.1);
+    color: #cf1259;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+#reset-btn{
+    height: 10vmin;
+    width: 25vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 11px 6px rgba(0, 0, 0, 0.1);
+    color: #ff0000;
+}
+.box:hover{
+    transition-duration: 0.6s;
+    background-color: #d7d7d7;
+}
+.msg{
+    font-family: sans-serif;
+    font-size: 50px;
+    display: none;
+}
