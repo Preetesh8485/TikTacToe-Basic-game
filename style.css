@@ -23,6 +23,10 @@ body{
    gap:1.5vmin;
 }
 .box{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
@@ -30,7 +34,9 @@ body{
     box-shadow: 0px 11px 6px rgba(0, 0, 0, 0.1);
     color: #cf1259;
     font-family: sans-serif;
-    font-size: 100px;
+    font-size: 10vmin;
+    
+    
 }
 #reset-btn{
     height: 10vmin;

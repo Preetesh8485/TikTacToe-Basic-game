@@ -50,7 +50,7 @@ boxes.forEach((box) => {
         if (wincheck) {
             disableBoxes();
             winnerdisplay.style.display = "block";
-            winnerdisplay.innerText = ` Winner :${wincheck}`;
+            winnerdisplay.innerText = ` Winner : ${wincheck}`;
         }
     });
 
